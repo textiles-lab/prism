@@ -688,6 +688,10 @@
 			"title": "Keyman",
 			"owner": "mcdurdin"
 		},
+		"knitout": {
+			"title": "knitout",
+			"owner": "textiles-lab"
+		},
 		"kotlin": {
 			"title": "Kotlin",
 			"alias": ["kt", "kts"],
