@@ -1,0 +1,65 @@
+knit
+knit + f1 1
+
+tuck
+tuck + f1 1
+
+xfer
+xfer f1 b1
+
+split
+split f1 b1 1
+
+rack 0
+rack -1
+
+inhook 1
+releasehook 1
+outhook 1
+in 1
+out 1
+
+----------------------------------------------------
+
+[
+	["knit", "knit"],
+
+	["knit", "knit"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "1"],
+	["carrier", " 1\r"],
+
+	["tuck", "tuck"],
+
+	["tuck", "tuck"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "1"],
+	["carrier", " 1\r"],
+
+	["xfer", "xfer"],
+	["xfer", "xfer"], ["bedf", "f"], "1 ", ["bedb", "b"], "1\r\n\r\n",
+
+	["split", "split"],
+
+	["split", "split"],
+	["bedf", "f"],
+	"1 ",
+	["bedb", "b"],
+	["knumber", "1"],
+	["carrier", " 1\r"],
+
+	["rack", "rack 0"],
+	["rack", "rack -1"],
+
+	["hook", "inhook"], ["carrier", " 1\r"],
+	["hook", "releasehook"], ["carrier", " 1\r"],
+	["hook", "outhook"], ["carrier", " 1\r"],
+	["hook", "in "], "1\r\n",
+	["hook", "out "], ["knumber", "1"]
+]
+
+----------------------------------------------------
+
+Checks for operations.

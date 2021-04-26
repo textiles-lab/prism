@@ -116,6 +116,7 @@
 		"jsonp": "JSONP",
 		"jsstacktrace": "JS stack trace",
 		"js-templates": "JS Templates",
+		"knitout": "knitout",
 		"kts": "Kotlin Script",
 		"kt": "Kotlin",
 		"kumir": "KuMir (КуМир)",

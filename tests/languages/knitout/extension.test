@@ -1,0 +1,19 @@
+x-vis-color #fffff
+x-speed-number 300
+x-stitch-number 5
+x-roller-advance 400
+x-presser-mode auto
+
+----------------------------------------------------
+
+[
+	["extension", "x-vis-color #fffff\r"],
+	["extension", "x-speed-number 300\r"],
+	["extension", "x-stitch-number 5\r"],
+	["extension", "x-roller-advance 400\r"],
+	["extension", "x-presser-mode "], "auto"
+]
+
+----------------------------------------------------
+
+Checks for extensions.

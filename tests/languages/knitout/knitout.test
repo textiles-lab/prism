@@ -1,0 +1,186 @@
+;!knitout-2
+;;Carriers: 1 2 3 4 5 6 7 8 9 10
+;;Machine: SWGN2
+x-stitch-number 85
+;test comment
+inhook 3
+tuck - f6 3
+tuck - f4 3
+tuck - f2 3
+tuck + f1 3
+tuck + f3 3
+tuck + f5 3
+knit - f6 3
+knit - f5 3
+knit - f4 3
+knit - f3 3
+knit - f2 3
+knit - f1 3
+releasehook 3
+knit + f1 3
+knit + f2 3
+knit + f3 3
+knit + f4 3
+knit + f5 3
+knit + f6 3
+xfer f6 b6
+rack 1
+xfer b6 f7
+rack 0
+drop f7
+outhook 3
+
+----------------------------------------------------
+
+[
+	["header", ";!knitout-2"],
+
+	["header", ";;Carriers: 1 2 3 4 5 6 7 8 9 10"],
+
+	["header", ";;Machine: SWGN2"],
+
+	["extension", "x-stitch-number 85\r"],
+
+	["comment", ";test comment"],
+
+	["hook", "inhook"],
+	["carrier", " 3\r"],
+
+	["tuck", "tuck"],
+	["direction", " - "],
+	["bedf", "f"],
+	["knumber", "6"],
+	["carrier", " 3\r"],
+
+	["tuck", "tuck"],
+	["direction", " - "],
+	["bedf", "f"],
+	["knumber", "4"],
+	["carrier", " 3\r"],
+
+	["tuck", "tuck"],
+	["direction", " - "],
+	["bedf", "f"],
+	["knumber", "2"],
+	["carrier", " 3\r"],
+
+	["tuck", "tuck"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "1"],
+	["carrier", " 3\r"],
+
+	["tuck", "tuck"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "3"],
+	["carrier", " 3\r"],
+
+	["tuck", "tuck"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "5"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " - "],
+	["bedf", "f"],
+	["knumber", "6"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " - "],
+	["bedf", "f"],
+	["knumber", "5"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " - "],
+	["bedf", "f"],
+	["knumber", "4"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " - "],
+	["bedf", "f"],
+	["knumber", "3"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " - "],
+	["bedf", "f"],
+	["knumber", "2"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " - "],
+	["bedf", "f"],
+	["knumber", "1"],
+	["carrier", " 3\r"],
+
+	["hook", "releasehook"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "1"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "2"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "3"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "4"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "5"],
+	["carrier", " 3\r"],
+
+	["knit", "knit"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "6"],
+	["carrier", " 3\r"],
+
+	["xfer", "xfer"],
+	["bedf", "f"],
+	"6 ",
+	["bedb", "b"],
+	"6\r\n",
+
+	["rack", "rack 1"],
+
+	["xfer", "xfer"],
+	["bedb", "b"],
+	"6 ",
+	["bedf", "f"],
+	"7\r\n",
+
+	["rack", "rack 0"],
+
+	["drop", "drop"],
+	["bedf", "f"],
+	"7\r\n",
+
+	["hook", "outhook"],
+	["carrier", " 3"]
+]
+
+----------------------------------------------------
+
+Check for... everything (almost).

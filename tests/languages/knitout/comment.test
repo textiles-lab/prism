@@ -1,0 +1,28 @@
+;
+; foobar
+;foobar
+; foobar ;
+;comment including operations: knit tuck split
+;xfer rack 0 
+knit + f1 1 ;foobar
+
+----------------------------------------------------
+
+[
+	["comment", ";"],
+	["comment", "; foobar"],
+	["comment", ";foobar"],
+	["comment", "; foobar ;"],
+	["comment", ";comment including operations: knit tuck split"],
+	["comment", ";xfer rack 0 "],
+	["knit", "knit"],
+	["direction", " + "],
+	["bedf", "f"],
+	["knumber", "1"],
+	["carrier", " 1 "],
+	["comment", ";foobar"]
+]
+
+----------------------------------------------------
+
+Checks for comments.

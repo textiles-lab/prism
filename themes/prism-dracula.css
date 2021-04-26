@@ -5,65 +5,65 @@
  * @author textiles-lab
  */
 
- code {
-   /* display: block; */
-  white-space: pre-wrap   
- }
- 
-code[class*='language-'],
-pre[class*='language-'],
-textarea[class*='language-'] {
-  color: #f8f8f2;
-  background: none;
-  /* text-shadow: 0 1px rgba(0, 0, 0, 0.3); */
-  /* font-family: 'Source Code Pro', monospace; */
-  /* font-weight: 800em; */
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-  font-size: 14px;
-  text-align: left;
-  /* white-space: pre; */
-  word-spacing: normal;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 1.5;
+code {
+	/* display: block; */
+	white-space: pre-wrap;
+}
 
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
+code[class*="language-"],
+pre[class*="language-"],
+textarea[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	/* text-shadow: 0 1px rgba(0, 0, 0, 0.3); */
+	/* font-family: 'Source Code Pro', monospace; */
+	/* font-weight: 800em; */
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	font-size: 14px;
+	text-align: left;
+	/* white-space: pre; */
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
 
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 }
 
 /* Code blocks */
-pre[class*='language-'] {
-  padding: 1em;
-  margin: 0.5em 0;
-  overflow: auto;
-  border-radius: 0.3em;
+pre[class*="language-"] {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
 }
 
-:not(pre) > code[class*='language-'],
-pre[class*='language-'] {
-  /* background: #272822; */
-  background: #282a36;
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	/* background: #272822; */
+	background: #282a36;
 }
 
 /* Inline code */
-:not(pre) > code[class*='language-'] {
-  padding: 0.1em;
-  border-radius: 0.3em;
-  /* white-space: normal; */
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+	/* white-space: normal; */
 }
 
 code > a {
-  text-decoration: none;
-  color: #8292a2;
-  border: dotted;
-  border-color: #3383ff;
-  text-shadow: #3383ff;
+	text-decoration: none;
+	color: #8292a2;
+	border: dotted;
+	border-color: #3383ff;
+	text-shadow: #3383ff;
 }
 
 .token.header,
@@ -71,34 +71,35 @@ code > a {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #8292a2;
+	color: #8292a2;
 }
 
 .token.link,
 .token.extension {
-  color: #ffff00;
+	color: #ffff00;
 }
 
-.token.bed_f {
-  color: #ff1786;
+.token.bedf {
+	color: #ff1786;
 }
 
-.token.bed_b {
-  color: #3383ff;
+.token.bedb {
+	color: #3383ff;
 }
 
 /* .token.bed, */
 .token.kn_number,
 .token.punctuation {
-  color: #f8f8f2;
+	color: #f8f8f2;
 }
 
 .token.namespace {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
+.token.split,
 .token.xfer {
-  color:#00ff4c;
+	color: #00ff4c;
 }
 /* .token.xfer, */
 .token.property,
@@ -106,17 +107,17 @@ code > a {
 .token.constant,
 .token.symbol,
 .token.deleted {
-  color: #ff1786;
+	color: #ff1786;
 }
 
 .token.knit,
 .token.boolean,
 .token.number {
-  color: #c681ff;
+	color: #c681ff;
 }
 
 .token.hook {
-  color: #fdffac;
+	color: #fdffac;
 }
 .token.tuck,
 .token.selector,
@@ -125,7 +126,7 @@ code > a {
 .token.char,
 .token.builtin,
 .token.inserted {
-  color:#50fab9;
+	color: #50fab9;
 }
 
 .token.entity,
@@ -133,7 +134,7 @@ code > a {
 .language-css .token.string,
 .style .token.string,
 .token.variable {
-  color: #f8f8f2;
+	color: #f8f8f2;
 }
 
 .token.rack,
@@ -141,64 +142,63 @@ code > a {
 .token.attr-value,
 /* .token.function, */
 .token.class-name {
-  color: #8be9fd;
+	color: #8be9fd;
 }
 
 /* .token.knit, */
 .token.keyword {
-  color: #3383ff;
+	color: #3383ff;
 }
 
 .token.direction,
 .token.operator,
 .token.regex,
 .token.important {
-  color: #fd9700;
+	color: #fd9700;
 }
 
 .token.miss {
-  color: #f699cd;
+	color: #f699cd;
 }
 
 .token.carrier {
-  color: #8763fd;
+	color: #8763fd;
 }
 
 .token.important,
 .token.bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 .token.italic {
-  font-style: italic;
+	font-style: italic;
 }
 
 .token.entity {
-  cursor: help;
+	cursor: help;
 }
-
 
 /* code folding */
 
 .prism-folding {
-    position: relative;
+	position: relative;
 }
 .prism-folding > .prism-folding-arrow {
-    position: absolute;
-    left: -0.5em;
-    text-decoration: none;
-    opacity: 0.5;
-    line-height: 1em;
+	position: absolute;
+	left: -0.5em;
+	text-decoration: none;
+	opacity: 0.5;
+	line-height: 1em;
 }
 .prism-folding > .prism-folding-arrow:hover {
-    cursor: pointer;
-    opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 .prism-folding > .prism-folding-arrow-down {
-    top: -1em;
+	top: -1em;
 }
 .prism-folding-closed > .prism-folding-node {
-    display: none;
+	display: none;
 }
 .prism-folding-closed > .prism-folding-arrow {
-    transform: rotate(270deg);
+	transform: rotate(270deg);
 }
