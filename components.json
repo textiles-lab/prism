@@ -17,8 +17,8 @@
 			"option": "default"
 		},
 		"prism-dark": "Dark",
-		"prism-knitout-dracula": {
-			"title": "knitout-dracula",
+		"prism-dracula": {
+			"title": "Dracula",
 			"owner": "textiles-lab"
 		},
 		"prism-funky": "Funky",
