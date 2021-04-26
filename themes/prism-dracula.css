@@ -1,0 +1,204 @@
+/* PrismJS 1.22.0
+/**
+ * Dracula theme for JavaScript, CSS, HTML, Python, and knitout.
+ * Based on Dracula theme by https://draculatheme.com/
+ * @author textiles-lab
+ */
+
+ code {
+   /* display: block; */
+  white-space: pre-wrap   
+ }
+ 
+code[class*='language-'],
+pre[class*='language-'],
+textarea[class*='language-'] {
+  color: #f8f8f2;
+  background: none;
+  /* text-shadow: 0 1px rgba(0, 0, 0, 0.3); */
+  /* font-family: 'Source Code Pro', monospace; */
+  /* font-weight: 800em; */
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  text-align: left;
+  /* white-space: pre; */
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+  /* background: #272822; */
+  background: #282a36;
+}
+
+/* Inline code */
+:not(pre) > code[class*='language-'] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  /* white-space: normal; */
+}
+
+code > a {
+  text-decoration: none;
+  color: #8292a2;
+  border: dotted;
+  border-color: #3383ff;
+  text-shadow: #3383ff;
+}
+
+.token.header,
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #8292a2;
+}
+
+.token.link,
+.token.extension {
+  color: #ffff00;
+}
+
+.token.bed_f {
+  color: #ff1786;
+}
+
+.token.bed_b {
+  color: #3383ff;
+}
+
+/* .token.bed, */
+.token.kn_number,
+.token.punctuation {
+  color: #f8f8f2;
+}
+
+.token.namespace {
+  opacity: 0.7;
+}
+
+.token.xfer {
+  color:#00ff4c;
+}
+/* .token.xfer, */
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #ff1786;
+}
+
+.token.knit,
+.token.boolean,
+.token.number {
+  color: #c681ff;
+}
+
+.token.hook {
+  color: #fdffac;
+}
+.token.tuck,
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color:#50fab9;
+}
+
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #f8f8f2;
+}
+
+.token.rack,
+.token.atrule,
+.token.attr-value,
+/* .token.function, */
+.token.class-name {
+  color: #8be9fd;
+}
+
+/* .token.knit, */
+.token.keyword {
+  color: #3383ff;
+}
+
+.token.direction,
+.token.operator,
+.token.regex,
+.token.important {
+  color: #fd9700;
+}
+
+.token.miss {
+  color: #f699cd;
+}
+
+.token.carrier {
+  color: #8763fd;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+
+/* code folding */
+
+.prism-folding {
+    position: relative;
+}
+.prism-folding > .prism-folding-arrow {
+    position: absolute;
+    left: -0.5em;
+    text-decoration: none;
+    opacity: 0.5;
+    line-height: 1em;
+}
+.prism-folding > .prism-folding-arrow:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.prism-folding > .prism-folding-arrow-down {
+    top: -1em;
+}
+.prism-folding-closed > .prism-folding-node {
+    display: none;
+}
+.prism-folding-closed > .prism-folding-arrow {
+    transform: rotate(270deg);
+}
